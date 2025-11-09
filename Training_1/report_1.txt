@@ -1,0 +1,18 @@
+Classification report:
+
+              precision    recall  f1-score   support
+
+   Classical       0.71      0.79      0.75      5261
+  Electronic       0.58      0.60      0.59      6000
+        Folk       0.41      0.47      0.44      8118
+     Hip-Hop       0.45      0.57      0.50      5558
+        Jazz       0.43      0.45      0.44      6000
+         Pop       0.32      0.18      0.23      5426
+      Reggae       0.48      0.56      0.51      7972
+        Rock       0.34      0.27      0.30      8423
+        Soul       0.30      0.29      0.30      8131
+  Soundtrack       0.72      0.65      0.68      8140
+
+    accuracy                           0.47     69029
+   macro avg       0.47      0.48      0.47     69029
+weighted avg       0.47      0.47      0.47     69029
