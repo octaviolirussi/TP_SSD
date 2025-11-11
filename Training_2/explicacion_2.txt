@@ -1,0 +1,11 @@
+En este entrenamiento se busca mejorar la red neuronal utilizada previamente, agregando una nueva capa oculta y aplicando Dropouts para reducir el sobreajuste y favorecer un mejor aprendizaje general.
+
+Conclusiones:
+A partir de los resultados observados en los gráficos de accuracy y loss, se puede concluir que:
+
+1. La mejora en términos de precisión es mínima, lo que indica que el problema no radica en la complejidad de la red.
+
+2. Sin embargo, los cambios aplicados ayudan a estabilizar el entrenamiento, mostrando un comportamiento más controlado y consistente a lo largo de las épocas.
+
+Dataset:
+https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset

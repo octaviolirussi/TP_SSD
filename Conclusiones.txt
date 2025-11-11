@@ -1,0 +1,13 @@
+A lo largo de los distintos entrenamientos se logró una evolución significativa en la comprensión y el desempeño del modelo, 
+evidenciando cómo la calidad y naturaleza de los features influyen directamente en la capacidad de la red neuronal para aprender patrones útiles.
+Los resultados demostraron que, si bien el modelo puede distinguir con relativa facilidad géneros bien definidos y contrastantes, 
+las fronteras entre estilos similares siguen siendo una fuente constante de confusión.
+
+Esta dificultad no responde únicamente a limitaciones del modelo o del dataset, sino a la propia naturaleza de la música, 
+donde los géneros no poseen límites estrictos, sino que se superponen, evolucionan y comparten características sonoras y estructurales.
+En este sentido, la clasificación musical automática representa un desafío intrínsecamente ambiguo, 
+donde incluso para el oído humano la distinción entre estilos puede resultar subjetiva.
+
+En conclusión, el proyecto permitió establecer una base sólida para la experimentación con modelos más especializados en audio, 
+a la vez que pone de manifiesto que la música no siempre puede ser descrita ni comprendida plenamente mediante métricas numéricas 
+o categorías fijas, lo que convierte su análisis en un campo tan técnico como artístico.

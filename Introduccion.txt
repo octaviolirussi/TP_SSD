@@ -1,0 +1,25 @@
+El objetivo de este proyecto es entrenar una red neuronal multiclase capaz de 
+predecir el género musical de una canción a partir de sus características.
+
+Cada etapa del desarrollo se organizará en carpetas denominadas Training_X, comenzando por Training_1.
+A medida que avancemos, los siguientes entrenamientos se construirán en base a las conclusiones y mejoras obtenidas de los anteriores.
+
+Cada carpeta de entrenamiento contendrá:
+
+1. data_processing.py -> Se encargara del tratamiento y preparación de los datos.
+
+2. model_training.py -> Se encargara del entrenamiento de la red neuronal.
+
+3. explicacion.txt ->Una breve descripción de los procedimientos realizados.
+
+4. MC -> matriz de confusión.
+
+5. accuracy -> Los gráficos de accuracy y loss.
+
+6. report - > El reporte de clasificación correspondiente.
+
+Links de los datasets:
+
+https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset
+https://www.kaggle.com/datasets/insiyeah/musicfeatures?select=data.csv
+https://www.kaggle.com/datasets/satoshiss/music-classification-data-pog-series2?select=train_features_all.csv

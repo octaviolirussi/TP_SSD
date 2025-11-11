@@ -1,0 +1,22 @@
+Comenzaremos utilizando un dataset que cuenta con una gran cantidad de muestras, lo cual permite un mejor entrenamiento y generalización del modelo.
+Se empleará la mayoría de los features disponibles, ya que en su mayoría presentan una estructura consistente y comparable entre canciones.
+
+El objetivo de esta primera etapa (Training_1) será entrenar la red neuronal utilizando este conjunto de datos base, 
+analizar los resultados obtenidos y, a partir de las conclusiones, definir los ajustes y mejoras para los siguientes entrenamientos.
+
+A partir del análisis de la matriz de confusión y los graficos de accuracy y loss, se pueden establecer las siguientes conclusiones:
+
+Arquitectura del modelo:
+La red neuronal utilizada resulta demasiado simple para capturar las relaciones entre las variables.
+→ En el próximo experimento (Training_2) se construirá una red más compleja para evaluar si mejora el rendimiento.
+
+Distribución de géneros:
+Se observa que algunos géneros similares o agrupados generan confusión en las predicciones, lo que produce errores al momento de clasificar.
+→ En Training_3 se probará con un conjunto de géneros más diferenciados entre sí, para analizar si mejora la precisión.
+
+Selección de features:
+Los features utilizados actualmente podrían no tener una relación directa con el género musical.
+→ En Training_4 se experimentará con un nuevo conjunto de características para determinar si aportan una mejor representación del problema.
+
+Dataset:
+https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset

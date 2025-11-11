@@ -1,0 +1,16 @@
+En este entrenamiento el objetivo es evaluar el desempeño del modelo utilizando un nuevo conjunto de features.
+Los features empleados anteriormente (danceability, acousticness, speechiness) no mostraron una relación directa con el género musical.
+
+Para este experimento se utiliza otro dataset, que incluye valores numéricos extraídos directamente de los audios reales de las canciones, ofreciendo una representación más fiel de las características sonoras.
+Además, se trabajará con un conjunto de 1000 canciones para mantener un equilibrio entre diversidad y control en el entrenamiento.
+
+Conclusiones:
+
+Se observa un cambio significativo en la matriz de confusión, evidenciando una gran mejora al utilizar los nuevos features.
+Esto confirma que los atributos empleados en entrenamientos anteriores no estaban directamente relacionados con el género musical.
+
+En el siguiente entrenamiento (Training_5) se repetirá el mismo procedimiento, pero utilizando un dataset con una mayor cantidad de canciones, 
+con el fin de analizar cómo escala el rendimiento del modelo frente a un volumen de datos más amplio.
+
+Dataset:
+https://www.kaggle.com/datasets/insiyeah/musicfeatures?select=data.csv

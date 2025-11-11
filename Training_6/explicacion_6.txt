@@ -1,0 +1,16 @@
+En este último entrenamiento se busca abordar el problema de los géneros musicales similares, 
+donde el modelo mostraba confusión al clasificar estilos con características cercanas (por ejemplo, rock y punk).
+
+La estrategia consiste en forzar un ligero overfitting, con la intención de observar si el modelo, al “pensar menos”, logra que los datos de test revelen patrones más marcados entre los géneros.
+
+Además, se incorpora el uso del módulo compute_class_weight, una función de scikit-learn que ajusta los pesos de cada clase en función de su frecuencia dentro del dataset.
+Esto permite dar más importancia a las clases menos representadas, buscando equilibrar el impacto de los géneros minoritarios durante el entrenamiento.
+
+Conclusiones:
+
+Los resultados muestran que no se observaron mejoras significativas respecto al entrenamiento anterior.
+El uso de compute_class_weight únicamente provocó que, en situaciones de ambigüedad, el modelo tendiera a elegir el género con mayor peso, 
+sin realmente resolver el problema de diferenciación entre géneros similares.
+
+Dataset:
+https://www.kaggle.com/datasets/satoshiss/music-classification-data-pog-series2?select=train_features_all.csv

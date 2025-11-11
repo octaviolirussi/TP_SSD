@@ -1,0 +1,10 @@
+En este entrenamiento se decidió no agrupar los géneros musicales, sino mantener únicamente aquellos que presentan características más diferenciables entre sí.
+Se conservaron algunos géneros populares, como rock y pop, por su relevancia y representatividad dentro del dataset.
+
+Conclusiones:
+
+A partir de los resultados obtenidos, se observa una mejora notable en la matriz de confusión, especialmente en los géneros más diferenciados, que ahora son clasificados con mayor precisión.
+Sin embargo, persisten dificultades en la clasificación de géneros más generales, lo que sugiere que aún existe superposición en las características entre ciertos estilos musicales.
+
+Dataset:
+https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset

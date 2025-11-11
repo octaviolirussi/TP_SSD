@@ -1,0 +1,13 @@
+En este entrenamiento se realiza una prueba similar a la del Training_4, pero utilizando un conjunto de datos más amplio.
+El objetivo es evaluar cómo se comporta la red neuronal al incrementar la cantidad de muestras, manteniendo los mismos features basados en los audios reales de las canciones.
+
+Conclusiones:
+
+Los resultados muestran que el modelo mantiene un buen desempeño con los nuevos features, incluso al aumentar significativamente el tamaño del dataset.
+Sin embargo, persisten dificultades para distinguir géneros con características muy similares, como punk y rock, donde las fronteras entre clases siguen siendo difusas.
+
+En el próximo entrenamiento (Training_6) se buscará abordar el problema de los géneros similares, aplicando estrategias que permitan mejorar la capacidad del modelo para diferenciarlos con mayor precisión.
+
+Dataset:
+https://www.kaggle.com/datasets/satoshiss/music-classification-data-pog-series2?select=train_features_all.csv
+
