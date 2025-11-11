@@ -1,0 +1,15 @@
+Classification report:
+
+              precision    recall  f1-score   support
+
+   Classical       0.92      0.97      0.94       360
+  Electronic       0.62      0.53      0.57       510
+        Folk       0.67      0.74      0.70       365
+     Hip-Hop       0.75      0.69      0.72       510
+         Pop       0.51      0.52      0.51       360
+        Punk       0.59      0.57      0.58       510
+        Rock       0.43      0.48      0.45       510
+
+    accuracy                           0.63      3125
+   macro avg       0.64      0.64      0.64      3125
+weighted avg       0.63      0.63      0.63      3125
